@@ -1,0 +1,15 @@
+#include "driverlib.h"
+#include "delay.h"
+
+
+void main(void)
+{
+    WDT_A_hold(WDT_A_BASE);
+
+    UCS_initClockSignal(UCS_ACLK, UCS_REFOCLK_SELECT, UCS_CLOCK_DIVIDER_1);
+
+    while(1)
+    {
+
+    };
+}

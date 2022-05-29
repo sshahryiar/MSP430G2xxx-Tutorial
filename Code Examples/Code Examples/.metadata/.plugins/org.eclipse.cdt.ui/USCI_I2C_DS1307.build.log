@@ -1,0 +1,94 @@
+
+**** Build of configuration Debug for project USCI_I2C_DS1307 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Libraries/delay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_I2C_DS1307/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/USCI_I2C_DS1307" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/delay.d" --obj_directory="Libraries"  "../Libraries/delay.c"
+"../Libraries/delay.c", line 6: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+'Finished building: ../Libraries/delay.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_I2C_DS1307/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/USCI_I2C_DS1307" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 32: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 33: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../main.c", line 285: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 289: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building file: ../Libraries/DS1307.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_I2C_DS1307/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/USCI_I2C_DS1307" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/DS1307.d" --obj_directory="Libraries"  "../Libraries/DS1307.c"
+"../Libraries/DS1307.c", line 44: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Libraries/DS1307.c", line 51: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 53: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 54: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 56: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 57: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 64: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 66: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 67: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 69: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 70: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 72: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../Libraries/DS1307.c", line 73: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+'Finished building: ../Libraries/DS1307.c'
+' '
+'Building file: ../Libraries/HW_I2C.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_I2C_DS1307/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/USCI_I2C_DS1307" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/HW_I2C.d" --obj_directory="Libraries"  "../Libraries/HW_I2C.c"
+"../Libraries/HW_I2C.c", line 33: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 36: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Libraries/HW_I2C.c", line 41: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Libraries/HW_I2C.c", line 56: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 67: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 82: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 87: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Libraries/HW_I2C.c", line 78: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Libraries/HW_I2C.c", line 80: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../Libraries/HW_I2C.c", line 91: remark #2553-D: (ULP 14.1) Array index (involving "length") of type "int". Recommend using "unsigned int"
+"../Libraries/HW_I2C.c", line 103: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 113: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 122: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_I2C.c", line 99: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../Libraries/HW_I2C.c'
+' '
+'Building file: ../Libraries/lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_I2C_DS1307/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/USCI_I2C_DS1307" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/lcd.d" --obj_directory="Libraries"  "../Libraries/lcd.c"
+'Finished building: ../Libraries/lcd.c'
+' '
+'Building target: USCI_I2C_DS1307.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"USCI_I2C_DS1307.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="USCI_I2C_DS1307_linkInfo.xml" --use_hw_mpy=none --rom_model -o "USCI_I2C_DS1307.out" "./main.obj" "./Libraries/DS1307.obj" "./Libraries/HW_I2C.obj" "./Libraries/delay.obj" "./Libraries/lcd.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: USCI_I2C_DS1307.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "USCI_I2C_DS1307.hex"  "USCI_I2C_DS1307.out" 
+Translating to Intel format...
+   "USCI_I2C_DS1307.out" .text ==> .text
+   "USCI_I2C_DS1307.out" .const ==> .const
+   "USCI_I2C_DS1307.out" .cinit ==> .cinit
+   "USCI_I2C_DS1307.out" $fill000 ==> $fill000
+   "USCI_I2C_DS1307.out" TRAPINT ==> TRAPINT
+   "USCI_I2C_DS1307.out" PORT1 ==> PORT1
+   "USCI_I2C_DS1307.out" PORT2 ==> PORT2
+   "USCI_I2C_DS1307.out" ADC10 ==> ADC10
+   "USCI_I2C_DS1307.out" USCIAB0TX ==> USCIAB0TX
+   "USCI_I2C_DS1307.out" USCIAB0RX ==> USCIAB0RX
+   "USCI_I2C_DS1307.out" TIMER0_A1 ==> TIMER0_A1
+   "USCI_I2C_DS1307.out" TIMER0_A0 ==> TIMER0_A0
+   "USCI_I2C_DS1307.out" WDT ==> WDT
+   "USCI_I2C_DS1307.out" COMPARATORA ==> COMPARATORA
+   "USCI_I2C_DS1307.out" TIMER1_A1 ==> TIMER1_A1
+   "USCI_I2C_DS1307.out" TIMER1_A0 ==> TIMER1_A0
+   "USCI_I2C_DS1307.out" NMI ==> NMI
+   "USCI_I2C_DS1307.out" .reset ==> .reset
+'Finished building: USCI_I2C_DS1307.hex'
+' '
+
+**** Build Finished ****

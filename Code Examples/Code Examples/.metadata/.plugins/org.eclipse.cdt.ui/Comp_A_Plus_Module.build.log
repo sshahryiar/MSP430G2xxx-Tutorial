@@ -1,0 +1,45 @@
+
+**** Build of configuration Debug for project Comp_A_Plus_Module ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Libraries/delay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Comp_A_Plus_Module/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Comp_A_Plus_Module" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/delay.d" --obj_directory="Libraries"  "../Libraries/delay.c"
+"../Libraries/delay.c", line 6: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+'Finished building: ../Libraries/delay.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Comp_A_Plus_Module/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Comp_A_Plus_Module" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 78: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: Comp_A_Plus_Module.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Comp_A_Plus_Module.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Comp_A_Plus_Module_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Comp_A_Plus_Module.out" "./main.obj" "./Libraries/delay.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: Comp_A_Plus_Module.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Comp_A_Plus_Module.hex"  "Comp_A_Plus_Module.out" 
+Translating to Intel format...
+   "Comp_A_Plus_Module.out" .text ==> .text
+   "Comp_A_Plus_Module.out" $fill000 ==> $fill000
+   "Comp_A_Plus_Module.out" TRAPINT ==> TRAPINT
+   "Comp_A_Plus_Module.out" PORT1 ==> PORT1
+   "Comp_A_Plus_Module.out" PORT2 ==> PORT2
+   "Comp_A_Plus_Module.out" ADC10 ==> ADC10
+   "Comp_A_Plus_Module.out" USCIAB0TX ==> USCIAB0TX
+   "Comp_A_Plus_Module.out" USCIAB0RX ==> USCIAB0RX
+   "Comp_A_Plus_Module.out" TIMER0_A1 ==> TIMER0_A1
+   "Comp_A_Plus_Module.out" TIMER0_A0 ==> TIMER0_A0
+   "Comp_A_Plus_Module.out" WDT ==> WDT
+   "Comp_A_Plus_Module.out" COMPARATORA ==> COMPARATORA
+   "Comp_A_Plus_Module.out" TIMER1_A1 ==> TIMER1_A1
+   "Comp_A_Plus_Module.out" TIMER1_A0 ==> TIMER1_A0
+   "Comp_A_Plus_Module.out" NMI ==> NMI
+   "Comp_A_Plus_Module.out" .reset ==> .reset
+'Finished building: Comp_A_Plus_Module.hex'
+' '
+
+**** Build Finished ****

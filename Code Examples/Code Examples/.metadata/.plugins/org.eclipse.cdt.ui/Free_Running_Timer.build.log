@@ -1,0 +1,33 @@
+
+**** Build of configuration Debug for project Free_Running_Timer ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.3.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Free_Running_Timer" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.3.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: Free_Running_Timer.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.3.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Free_Running_Timer.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.3.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.3.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Free_Running_Timer_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Free_Running_Timer.out" "./main.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: Free_Running_Timer.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.3.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Free_Running_Timer.hex"  "Free_Running_Timer.out" 
+Translating to Intel format...
+   "Free_Running_Timer.out" .text ==> .text
+   "Free_Running_Timer.out" PORT1 ==> PORT1
+   "Free_Running_Timer.out" PORT2 ==> PORT2
+   "Free_Running_Timer.out" USI ==> USI
+   "Free_Running_Timer.out" ADC10 ==> ADC10
+   "Free_Running_Timer.out" TIMER0_A1 ==> TIMER0_A1
+   "Free_Running_Timer.out" TIMER0_A0 ==> TIMER0_A0
+   "Free_Running_Timer.out" WDT ==> WDT
+   "Free_Running_Timer.out" COMPARATORA ==> COMPARATORA
+   "Free_Running_Timer.out" NMI ==> NMI
+   "Free_Running_Timer.out" .reset ==> .reset
+'Finished building: Free_Running_Timer.hex'
+' '
+
+**** Build Finished ****

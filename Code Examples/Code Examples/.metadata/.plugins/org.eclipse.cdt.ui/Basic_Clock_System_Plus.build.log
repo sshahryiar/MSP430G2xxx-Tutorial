@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Basic_Clock_System_Plus ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'Basic_Clock_System_Plus.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

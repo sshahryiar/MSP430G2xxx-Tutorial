@@ -1,0 +1,94 @@
+
+**** Build of configuration Debug for project RO_PINOSC_TA0_WDTp_One_Button ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Application/structure.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Library" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Application" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Application/structure.d" --obj_directory="Application"  "../Application/structure.c"
+'Finished building: ../Application/structure.c'
+' '
+'Building file: ../Library/CTS_HAL.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Library" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Application" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Library/CTS_HAL.d" --obj_directory="Library"  "../Library/CTS_HAL.c"
+"../Library/CTS_HAL.c", line 1915: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../Library/CTS_HAL.c'
+' '
+'Building file: ../Library/CTS_Layer.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Library" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Application" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Library/CTS_Layer.d" --obj_directory="Library"  "../Library/CTS_Layer.c"
+"../Library/CTS_Layer.c", line 357: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../Library/CTS_Layer.c", line 359: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../Library/CTS_Layer.c", line 362: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 363: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 363: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 431: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../Library/CTS_Layer.c", line 448: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 458: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 459: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 465: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 466: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 475: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 491: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 501: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 502: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 508: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 509: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 519: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 532: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 533: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 534: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 534: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 537: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 538: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 539: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../Library/CTS_Layer.c", line 539: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 539: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 543: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 544: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../Library/CTS_Layer.c", line 547: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 548: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 549: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../Library/CTS_Layer.c", line 549: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 549: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 553: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 554: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../Library/CTS_Layer.c", line 557: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 558: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 559: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../Library/CTS_Layer.c", line 559: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 559: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 565: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 574: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 581: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 600: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 601: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 601: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../Library/CTS_Layer.c", line 601: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 601: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 604: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 605: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 605: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 605: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 612: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 620: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 627: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 651: remark #1535-D: (ULP 8.1) variable "result" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Library/CTS_Layer.c", line 706: remark #2553-D: (ULP 14.1) Array index (involving "index") of type "int". Recommend using "unsigned int"
+"../Library/CTS_Layer.c", line 975: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../Library/CTS_Layer.c", line 988: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../Library/CTS_Layer.c", line 986: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+'Finished building: ../Library/CTS_Layer.c'
+' '
+'Building file: ../Application/main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Library" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_One_Button/Application" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Application/main.d" --obj_directory="Application"  "../Application/main.c"
+'Finished building: ../Application/main.c'
+' '
+'Building target: RO_PINOSC_TA0_WDTp_One_Button.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"RO_PINOSC_TA0_WDTp_One_Button.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="RO_PINOSC_TA0_WDTp_One_Button_linkInfo.xml" --use_hw_mpy=none --rom_model -o "RO_PINOSC_TA0_WDTp_One_Button.out" "./Application/main.obj" "./Application/structure.obj" "./Library/CTS_HAL.obj" "./Library/CTS_Layer.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: RO_PINOSC_TA0_WDTp_One_Button.out'
+' '
+
+**** Build Finished ****

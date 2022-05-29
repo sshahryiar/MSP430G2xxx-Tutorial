@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project RO_PINOSC_TA0_WDTp_Wheel_Buttons ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Application/main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_Wheel_Buttons" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_Wheel_Buttons/Library" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/RO_PINOSC_TA0_WDTp_Wheel_Buttons/Application" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Application/main.d" --obj_directory="Application"  "../Application/main.c"
+'Finished building: ../Application/main.c'
+' '
+'Building target: RO_PINOSC_TA0_WDTp_Wheel_Buttons.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --gcc --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"RO_PINOSC_TA0_WDTp_Wheel_Buttons.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="RO_PINOSC_TA0_WDTp_Wheel_Buttons_linkInfo.xml" --use_hw_mpy=none --rom_model -o "RO_PINOSC_TA0_WDTp_Wheel_Buttons.out" "./Application/main.obj" "./Application/structure.obj" "./Library/CTS_HAL.obj" "./Library/CTS_Layer.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: RO_PINOSC_TA0_WDTp_Wheel_Buttons.out'
+' '
+
+**** Build Finished ****

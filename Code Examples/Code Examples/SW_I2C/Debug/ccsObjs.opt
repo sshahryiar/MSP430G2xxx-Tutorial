@@ -1,0 +1,1 @@
+"./main.obj" "./Libraries/PCF8591.obj" "./Libraries/SW_I2C.obj" "./Libraries/delay.obj" "./Libraries/lcd.obj" "../lnk_msp430g2452.cmd" -llibc.a 

@@ -1,0 +1,35 @@
+
+**** Build of configuration Debug for project Capacitive_Touch_(Multi) ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Libraries/structure.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Capacitive_Touch_(Multi)/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Capacitive_Touch_(Multi)" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/structure.d" --obj_directory="Libraries"  "../Libraries/structure.c"
+'Finished building: ../Libraries/structure.c'
+' '
+'Building target: Capacitive_Touch_(Multi).out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Capacitive_Touch_(Multi).map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Capacitive_Touch_(Multi)_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Capacitive_Touch_(Multi).out" "./main.obj" "./Libraries/CTS_HAL.obj" "./Libraries/CTS_Layer.obj" "./Libraries/structure.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: Capacitive_Touch_(Multi).out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Capacitive_Touch_(Multi).hex"  "Capacitive_Touch_(Multi).out" 
+Translating to Intel format...
+   "Capacitive_Touch_(Multi).out" .text ==> .text
+   "Capacitive_Touch_(Multi).out" .const ==> .const
+   "Capacitive_Touch_(Multi).out" .cinit ==> .cinit
+   "Capacitive_Touch_(Multi).out" PORT1 ==> PORT1
+   "Capacitive_Touch_(Multi).out" PORT2 ==> PORT2
+   "Capacitive_Touch_(Multi).out" USI ==> USI
+   "Capacitive_Touch_(Multi).out" ADC10 ==> ADC10
+   "Capacitive_Touch_(Multi).out" TIMER0_A1 ==> TIMER0_A1
+   "Capacitive_Touch_(Multi).out" TIMER0_A0 ==> TIMER0_A0
+   "Capacitive_Touch_(Multi).out" WDT ==> WDT
+   "Capacitive_Touch_(Multi).out" COMPARATORA ==> COMPARATORA
+   "Capacitive_Touch_(Multi).out" NMI ==> NMI
+   "Capacitive_Touch_(Multi).out" .reset ==> .reset
+'Finished building: Capacitive_Touch_(Multi).hex'
+' '
+
+**** Build Finished ****

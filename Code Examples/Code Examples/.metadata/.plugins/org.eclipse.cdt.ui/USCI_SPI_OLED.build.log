@@ -1,0 +1,42 @@
+
+**** Build of configuration Debug for project USCI_SPI_OLED ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_SPI_OLED/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_SPI_OLED/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_SPI_OLED" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 129: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 50 (col. 25): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 53 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../main.c'
+' '
+'Building target: USCI_SPI_OLED.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"USCI_SPI_OLED.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="USCI_SPI_OLED_linkInfo.xml" --use_hw_mpy=none --rom_model -o "USCI_SPI_OLED.out" "./main.obj" "./Libraries/HW_SPI.obj" "./Libraries/SSD1306.obj" "./Libraries/delay.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: USCI_SPI_OLED.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "USCI_SPI_OLED.hex"  "USCI_SPI_OLED.out" 
+Translating to Intel format...
+   "USCI_SPI_OLED.out" .text ==> .text
+   "USCI_SPI_OLED.out" .const ==> .const
+   "USCI_SPI_OLED.out" $fill000 ==> $fill000
+   "USCI_SPI_OLED.out" TRAPINT ==> TRAPINT
+   "USCI_SPI_OLED.out" PORT1 ==> PORT1
+   "USCI_SPI_OLED.out" PORT2 ==> PORT2
+   "USCI_SPI_OLED.out" ADC10 ==> ADC10
+   "USCI_SPI_OLED.out" USCIAB0TX ==> USCIAB0TX
+   "USCI_SPI_OLED.out" USCIAB0RX ==> USCIAB0RX
+   "USCI_SPI_OLED.out" TIMER0_A1 ==> TIMER0_A1
+   "USCI_SPI_OLED.out" TIMER0_A0 ==> TIMER0_A0
+   "USCI_SPI_OLED.out" WDT ==> WDT
+   "USCI_SPI_OLED.out" COMPARATORA ==> COMPARATORA
+   "USCI_SPI_OLED.out" TIMER1_A1 ==> TIMER1_A1
+   "USCI_SPI_OLED.out" TIMER1_A0 ==> TIMER1_A0
+   "USCI_SPI_OLED.out" NMI ==> NMI
+   "USCI_SPI_OLED.out" .reset ==> .reset
+'Finished building: USCI_SPI_OLED.hex'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,1 @@
+"./main.obj" "./Libraries/HW_SPI.obj" "./Libraries/SSD1306.obj" "./Libraries/delay.obj" "../lnk_msp430g2553.cmd" -llibc.a 

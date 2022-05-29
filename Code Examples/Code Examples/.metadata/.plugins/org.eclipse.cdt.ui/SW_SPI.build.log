@@ -1,0 +1,34 @@
+
+**** Build of configuration Debug for project SW_SPI ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Libraries/MCP4921.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/SW_SPI/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/SW_SPI" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/MCP4921.d" --obj_directory="Libraries"  "../Libraries/MCP4921.c"
+'Finished building: ../Libraries/MCP4921.c'
+' '
+'Building target: SW_SPI.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"SW_SPI.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SW_SPI_linkInfo.xml" --use_hw_mpy=none --rom_model -o "SW_SPI.out" "./main.obj" "./Libraries/MCP4921.obj" "./Libraries/delay.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: SW_SPI.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "SW_SPI.hex"  "SW_SPI.out" 
+Translating to Intel format...
+   "SW_SPI.out" .text ==> .text
+   "SW_SPI.out" .const ==> .const
+   "SW_SPI.out" PORT1 ==> PORT1
+   "SW_SPI.out" PORT2 ==> PORT2
+   "SW_SPI.out" USI ==> USI
+   "SW_SPI.out" ADC10 ==> ADC10
+   "SW_SPI.out" TIMER0_A1 ==> TIMER0_A1
+   "SW_SPI.out" TIMER0_A0 ==> TIMER0_A0
+   "SW_SPI.out" WDT ==> WDT
+   "SW_SPI.out" COMPARATORA ==> COMPARATORA
+   "SW_SPI.out" NMI ==> NMI
+   "SW_SPI.out" .reset ==> .reset
+'Finished building: SW_SPI.hex'
+' '
+
+**** Build Finished ****

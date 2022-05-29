@@ -1,0 +1,9 @@
+AutoStart=true
+DontShowETonlyMessage=always
+Mode=EnergyTrace++
+TargetVoltage=3300.0
+TargetVoltageUSB1=3000.0
+TargetVoltageUSB2=3000.0
+TargetVoltageUSB3=3000.0
+TargetVoltageXDS110=3300.0
+eclipse.preferences.version=1

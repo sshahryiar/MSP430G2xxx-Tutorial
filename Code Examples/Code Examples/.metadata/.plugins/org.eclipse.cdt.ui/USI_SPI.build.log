@@ -1,0 +1,39 @@
+
+**** Build of configuration Debug for project USI_SPI ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/USI_SPI/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/USI_SPI" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 71: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 73: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 75: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 83: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 85: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+'Finished building: ../main.c'
+' '
+'Building target: USI_SPI.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"USI_SPI.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="USI_SPI_linkInfo.xml" --use_hw_mpy=none --rom_model -o "USI_SPI.out" "./main.obj" "./Libraries/MAX72xx.obj" "./Libraries/SPI.obj" "./Libraries/delay.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: USI_SPI.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "USI_SPI.hex"  "USI_SPI.out" 
+Translating to Intel format...
+   "USI_SPI.out" .text ==> .text
+   "USI_SPI.out" .const ==> .const
+   "USI_SPI.out" PORT1 ==> PORT1
+   "USI_SPI.out" PORT2 ==> PORT2
+   "USI_SPI.out" USI ==> USI
+   "USI_SPI.out" ADC10 ==> ADC10
+   "USI_SPI.out" TIMER0_A1 ==> TIMER0_A1
+   "USI_SPI.out" TIMER0_A0 ==> TIMER0_A0
+   "USI_SPI.out" WDT ==> WDT
+   "USI_SPI.out" COMPARATORA ==> COMPARATORA
+   "USI_SPI.out" NMI ==> NMI
+   "USI_SPI.out" .reset ==> .reset
+'Finished building: USI_SPI.hex'
+' '
+
+**** Build Finished ****

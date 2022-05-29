@@ -1,0 +1,36 @@
+
+**** Build of configuration Debug for project External_Interrupt ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/External_Interrupt" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 38: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: External_Interrupt.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"External_Interrupt.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="External_Interrupt_linkInfo.xml" --use_hw_mpy=none --rom_model -o "External_Interrupt.out" "./main.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: External_Interrupt.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "External_Interrupt.hex"  "External_Interrupt.out" 
+Translating to Intel format...
+   "External_Interrupt.out" .text ==> .text
+   "External_Interrupt.out" .cinit ==> .cinit
+   "External_Interrupt.out" PORT1 ==> PORT1
+   "External_Interrupt.out" PORT2 ==> PORT2
+   "External_Interrupt.out" USI ==> USI
+   "External_Interrupt.out" ADC10 ==> ADC10
+   "External_Interrupt.out" TIMER0_A1 ==> TIMER0_A1
+   "External_Interrupt.out" TIMER0_A0 ==> TIMER0_A0
+   "External_Interrupt.out" WDT ==> WDT
+   "External_Interrupt.out" COMPARATORA ==> COMPARATORA
+   "External_Interrupt.out" NMI ==> NMI
+   "External_Interrupt.out" .reset ==> .reset
+'Finished building: External_Interrupt.hex'
+' '
+
+**** Build Finished ****

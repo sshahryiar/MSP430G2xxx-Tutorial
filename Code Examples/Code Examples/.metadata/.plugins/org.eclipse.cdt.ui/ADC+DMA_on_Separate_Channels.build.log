@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project ADC+DMA_on_Separate_Channels ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'ADC+DMA_on_Separate_Channels.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

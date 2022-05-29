@@ -1,0 +1,40 @@
+
+**** Build of configuration Debug for project SW_SPI(Bit Banging) ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/SW_SPI(Bit Banging)/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/SW_SPI(Bit Banging)" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 65: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 67: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 69: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 77: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 79: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 148: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: SW_SPI(Bit Banging).out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"SW_SPI(Bit Banging).map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SW_SPI(Bit Banging)_linkInfo.xml" --use_hw_mpy=none --rom_model -o "SW_SPI(Bit Banging).out" "./main.obj" "./Libraries/MAX72xx.obj" "./Libraries/delay.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: SW_SPI(Bit Banging).out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "SW_SPI(Bit Banging).hex"  "SW_SPI(Bit Banging).out" 
+Translating to Intel format...
+   "SW_SPI(Bit Banging).out" .text ==> .text
+   "SW_SPI(Bit Banging).out" .const ==> .const
+   "SW_SPI(Bit Banging).out" PORT1 ==> PORT1
+   "SW_SPI(Bit Banging).out" PORT2 ==> PORT2
+   "SW_SPI(Bit Banging).out" USI ==> USI
+   "SW_SPI(Bit Banging).out" ADC10 ==> ADC10
+   "SW_SPI(Bit Banging).out" TIMER0_A1 ==> TIMER0_A1
+   "SW_SPI(Bit Banging).out" TIMER0_A0 ==> TIMER0_A0
+   "SW_SPI(Bit Banging).out" WDT ==> WDT
+   "SW_SPI(Bit Banging).out" COMPARATORA ==> COMPARATORA
+   "SW_SPI(Bit Banging).out" NMI ==> NMI
+   "SW_SPI(Bit Banging).out" .reset ==> .reset
+'Finished building: SW_SPI(Bit Banging).hex'
+' '
+
+**** Build Finished ****

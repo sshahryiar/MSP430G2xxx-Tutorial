@@ -1,0 +1,51 @@
+
+**** Build of configuration Debug for project LCD_Interfacing ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Libraries/delay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/LCD_Interfacing/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/LCD_Interfacing" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/delay.d" --obj_directory="Libraries"  "../Libraries/delay.c"
+"../Libraries/delay.c", line 6: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+'Finished building: ../Libraries/delay.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/LCD_Interfacing/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/LCD_Interfacing" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 41: warning #169-D: argument of type "const char *" is incompatible with parameter of type "char *"
+"../main.c", line 43: warning #169-D: argument of type "const char *" is incompatible with parameter of type "char *"
+"../main.c", line 48: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 54: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 127: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building file: ../Libraries/lcd.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/LCD_Interfacing/Libraries" --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/LCD_Interfacing" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/lcd.d" --obj_directory="Libraries"  "../Libraries/lcd.c"
+'Finished building: ../Libraries/lcd.c'
+' '
+'Building target: LCD_Interfacing.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"LCD_Interfacing.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="LCD_Interfacing_linkInfo.xml" --use_hw_mpy=none --rom_model -o "LCD_Interfacing.out" "./main.obj" "./Libraries/delay.obj" "./Libraries/lcd.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: LCD_Interfacing.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "LCD_Interfacing.hex"  "LCD_Interfacing.out" 
+Translating to Intel format...
+   "LCD_Interfacing.out" .text ==> .text
+   "LCD_Interfacing.out" .const ==> .const
+   "LCD_Interfacing.out" PORT1 ==> PORT1
+   "LCD_Interfacing.out" PORT2 ==> PORT2
+   "LCD_Interfacing.out" USI ==> USI
+   "LCD_Interfacing.out" ADC10 ==> ADC10
+   "LCD_Interfacing.out" TIMER0_A1 ==> TIMER0_A1
+   "LCD_Interfacing.out" TIMER0_A0 ==> TIMER0_A0
+   "LCD_Interfacing.out" WDT ==> WDT
+   "LCD_Interfacing.out" COMPARATORA ==> COMPARATORA
+   "LCD_Interfacing.out" NMI ==> NMI
+   "LCD_Interfacing.out" .reset ==> .reset
+'Finished building: LCD_Interfacing.hex'
+' '
+
+**** Build Finished ****

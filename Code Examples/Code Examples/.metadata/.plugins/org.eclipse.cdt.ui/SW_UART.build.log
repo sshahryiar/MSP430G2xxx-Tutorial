@@ -1,0 +1,36 @@
+
+**** Build of configuration Debug for project SW_UART ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/SW_UART/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/SW_UART" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 117: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: SW_UART.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"SW_UART.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="SW_UART_linkInfo.xml" --use_hw_mpy=none --rom_model -o "SW_UART.out" "./main.obj" "./Libraries/PCF8574.obj" "./Libraries/SW_I2C.obj" "./Libraries/SW_UART.obj" "./Libraries/delay.obj" "./Libraries/lcd.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: SW_UART.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "SW_UART.hex"  "SW_UART.out" 
+Translating to Intel format...
+   "SW_UART.out" .text ==> .text
+   "SW_UART.out" .const ==> .const
+   "SW_UART.out" .cinit ==> .cinit
+   "SW_UART.out" PORT1 ==> PORT1
+   "SW_UART.out" PORT2 ==> PORT2
+   "SW_UART.out" USI ==> USI
+   "SW_UART.out" ADC10 ==> ADC10
+   "SW_UART.out" TIMER0_A1 ==> TIMER0_A1
+   "SW_UART.out" TIMER0_A0 ==> TIMER0_A0
+   "SW_UART.out" WDT ==> WDT
+   "SW_UART.out" COMPARATORA ==> COMPARATORA
+   "SW_UART.out" NMI ==> NMI
+   "SW_UART.out" .reset ==> .reset
+'Finished building: SW_UART.hex'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,56 @@
+
+**** Build of configuration Debug for project Driver_Library_Test ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Driver_Library_Test.out"
+Invoking: MSP430 Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Driver_Library_Test.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccsv8/ccs_base/msp430/include" -i"C:/ti/ccsv8/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Driver_Library_Test_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Driver_Library_Test.out" "./main.obj" "./Libraries/delay.obj" "./driverlib/adc10_a.obj" "./driverlib/adc12_a.obj" "./driverlib/aes.obj" "./driverlib/battbak.obj" "./driverlib/comp_b.obj" "./driverlib/crc.obj" "./driverlib/ctsd16.obj" "./driverlib/dac12_a.obj" "./driverlib/dma.obj" "./driverlib/eusci_a_spi.obj" "./driverlib/eusci_a_uart.obj" "./driverlib/eusci_b_i2c.obj" "./driverlib/eusci_b_spi.obj" "./driverlib/flashctl.obj" "./driverlib/gpio.obj" "./driverlib/lcd_b.obj" "./driverlib/ldopwr.obj" "./driverlib/mpy32.obj" "./driverlib/oa.obj" "./driverlib/pmap.obj" "./driverlib/pmm.obj" "./driverlib/ram.obj" "./driverlib/ref.obj" "./driverlib/rtc_a.obj" "./driverlib/rtc_b.obj" "./driverlib/rtc_c.obj" "./driverlib/sd24_b.obj" "./driverlib/sfr.obj" "./driverlib/sysctl.obj" "./driverlib/tec.obj" "./driverlib/timer_a.obj" "./driverlib/timer_b.obj" "./driverlib/timer_d.obj" "./driverlib/tlv.obj" "./driverlib/ucs.obj" "./driverlib/usci_a_spi.obj" "./driverlib/usci_a_uart.obj" "./driverlib/usci_b_i2c.obj" "./driverlib/usci_b_spi.obj" "./driverlib/wdt_a.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Driver_Library_Test.out"
+ 
+Building files: "Driver_Library_Test.out"
+Invoking: MSP430 Hex Utility
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Driver_Library_Test.hex"  "Driver_Library_Test.out" 
+Translating to Intel format...
+   "Driver_Library_Test.out" .text:_isr ==> .text:_isr
+   "Driver_Library_Test.out" .const ==> .const
+   "Driver_Library_Test.out" .cinit ==> .cinit
+   "Driver_Library_Test.out" RTC ==> RTC
+   "Driver_Library_Test.out" PORT2 ==> PORT2
+   "Driver_Library_Test.out" TIMER2_A1 ==> TIMER2_A1
+   "Driver_Library_Test.out" TIMER2_A0 ==> TIMER2_A0
+   "Driver_Library_Test.out" USCI_B1 ==> USCI_B1
+   "Driver_Library_Test.out" USCI_A1 ==> USCI_A1
+   "Driver_Library_Test.out" PORT1 ==> PORT1
+   "Driver_Library_Test.out" TIMER1_A1 ==> TIMER1_A1
+   "Driver_Library_Test.out" TIMER1_A0 ==> TIMER1_A0
+   "Driver_Library_Test.out" DMA ==> DMA
+   "Driver_Library_Test.out" USB_UBM ==> USB_UBM
+   "Driver_Library_Test.out" TIMER0_A1 ==> TIMER0_A1
+   "Driver_Library_Test.out" TIMER0_A0 ==> TIMER0_A0
+   "Driver_Library_Test.out" ADC12 ==> ADC12
+   "Driver_Library_Test.out" USCI_B0 ==> USCI_B0
+   "Driver_Library_Test.out" USCI_A0 ==> USCI_A0
+   "Driver_Library_Test.out" WDT ==> WDT
+   "Driver_Library_Test.out" TIMER0_B1 ==> TIMER0_B1
+   "Driver_Library_Test.out" TIMER0_B0 ==> TIMER0_B0
+   "Driver_Library_Test.out" COMP_B ==> COMP_B
+   "Driver_Library_Test.out" UNMI ==> UNMI
+   "Driver_Library_Test.out" SYSNMI ==> SYSNMI
+   "Driver_Library_Test.out" .reset ==> .reset
+   "Driver_Library_Test.out" .text ==> .text
+Finished building: "Driver_Library_Test.out"
+ 
+
+**** Build Finished ****

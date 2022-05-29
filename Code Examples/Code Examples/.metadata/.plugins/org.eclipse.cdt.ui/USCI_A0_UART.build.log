@@ -1,0 +1,42 @@
+
+**** Build of configuration Debug for project USCI_A0_UART ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/USCI_A0_UART/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/USCI_A0_UART" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 323: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../main.c", line 332: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+'Finished building: ../main.c'
+' '
+'Building target: USCI_A0_UART.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"USCI_A0_UART.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="USCI_A0_UART_linkInfo.xml" --use_hw_mpy=none --rom_model -o "USCI_A0_UART.out" "./main.obj" "./Libraries/delay.obj" "./Libraries/lcd.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: USCI_A0_UART.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "USCI_A0_UART.hex"  "USCI_A0_UART.out" 
+Translating to Intel format...
+   "USCI_A0_UART.out" .text ==> .text
+   "USCI_A0_UART.out" .const ==> .const
+   "USCI_A0_UART.out" .cinit ==> .cinit
+   "USCI_A0_UART.out" $fill000 ==> $fill000
+   "USCI_A0_UART.out" TRAPINT ==> TRAPINT
+   "USCI_A0_UART.out" PORT1 ==> PORT1
+   "USCI_A0_UART.out" PORT2 ==> PORT2
+   "USCI_A0_UART.out" ADC10 ==> ADC10
+   "USCI_A0_UART.out" USCIAB0TX ==> USCIAB0TX
+   "USCI_A0_UART.out" USCIAB0RX ==> USCIAB0RX
+   "USCI_A0_UART.out" TIMER0_A1 ==> TIMER0_A1
+   "USCI_A0_UART.out" TIMER0_A0 ==> TIMER0_A0
+   "USCI_A0_UART.out" WDT ==> WDT
+   "USCI_A0_UART.out" COMPARATORA ==> COMPARATORA
+   "USCI_A0_UART.out" TIMER1_A1 ==> TIMER1_A1
+   "USCI_A0_UART.out" TIMER1_A0 ==> TIMER1_A0
+   "USCI_A0_UART.out" NMI ==> NMI
+   "USCI_A0_UART.out" .reset ==> .reset
+'Finished building: USCI_A0_UART.hex'
+' '
+
+**** Build Finished ****

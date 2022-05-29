@@ -1,0 +1,35 @@
+
+**** Build of configuration Debug for project Clock_System ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Clock_System" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/include" --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 163: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building target: Clock_System.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2452__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Clock_System.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Clock_System_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Clock_System.out" "./main.obj" "../lnk_msp430g2452.cmd"  -llibc.a 
+<Linking>
+'Finished building target: Clock_System.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Clock_System.hex"  "Clock_System.out" 
+Translating to Intel format...
+   "Clock_System.out" .text ==> .text
+   "Clock_System.out" PORT1 ==> PORT1
+   "Clock_System.out" PORT2 ==> PORT2
+   "Clock_System.out" USI ==> USI
+   "Clock_System.out" ADC10 ==> ADC10
+   "Clock_System.out" TIMER0_A1 ==> TIMER0_A1
+   "Clock_System.out" TIMER0_A0 ==> TIMER0_A0
+   "Clock_System.out" WDT ==> WDT
+   "Clock_System.out" COMPARATORA ==> COMPARATORA
+   "Clock_System.out" NMI ==> NMI
+   "Clock_System.out" .reset ==> .reset
+'Finished building: Clock_System.hex'
+' '
+
+**** Build Finished ****

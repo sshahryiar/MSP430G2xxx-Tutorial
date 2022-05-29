@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/USCI_A0_UART/Libraries/PCF8591.c" element2="/USCI_A0_UART/Libraries/PCF8591.h" element3="/USCI_A0_UART/Libraries/SW_I2C.c" element4="/USCI_A0_UART/Libraries/SW_I2C.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1502005171573"/>
+</session>

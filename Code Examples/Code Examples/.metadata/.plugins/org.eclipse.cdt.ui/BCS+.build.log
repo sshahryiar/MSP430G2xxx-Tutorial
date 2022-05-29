@@ -1,0 +1,38 @@
+
+**** Build of configuration Debug for project BCS+ ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/BCS+" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: BCS+.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"BCS+.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="BCS+_linkInfo.xml" --use_hw_mpy=none --rom_model -o "BCS+.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: BCS+.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "BCS+.hex"  "BCS+.out" 
+Translating to Intel format...
+   "BCS+.out" .text ==> .text
+   "BCS+.out" $fill000 ==> $fill000
+   "BCS+.out" TRAPINT ==> TRAPINT
+   "BCS+.out" PORT1 ==> PORT1
+   "BCS+.out" PORT2 ==> PORT2
+   "BCS+.out" ADC10 ==> ADC10
+   "BCS+.out" USCIAB0TX ==> USCIAB0TX
+   "BCS+.out" USCIAB0RX ==> USCIAB0RX
+   "BCS+.out" TIMER0_A1 ==> TIMER0_A1
+   "BCS+.out" TIMER0_A0 ==> TIMER0_A0
+   "BCS+.out" WDT ==> WDT
+   "BCS+.out" COMPARATORA ==> COMPARATORA
+   "BCS+.out" TIMER1_A1 ==> TIMER1_A1
+   "BCS+.out" TIMER1_A0 ==> TIMER1_A0
+   "BCS+.out" NMI ==> NMI
+   "BCS+.out" .reset ==> .reset
+'Finished building: BCS+.hex'
+' '
+
+**** Build Finished ****

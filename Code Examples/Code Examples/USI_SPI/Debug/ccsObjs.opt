@@ -1,0 +1,1 @@
+"./main.obj" "./Libraries/MAX72xx.obj" "./Libraries/SPI.obj" "./Libraries/delay.obj" "../lnk_msp430g2452.cmd" -llibc.a 

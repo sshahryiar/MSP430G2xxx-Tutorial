@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Time_Delay_using_Compare_Match ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'Time_Delay_using_Compare_Match.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

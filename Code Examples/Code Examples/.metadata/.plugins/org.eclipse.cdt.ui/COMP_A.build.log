@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project COMP_A ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 2 all -O 
+gmake[1]: 'COMP_A.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

@@ -1,0 +1,1017 @@
+
+**** Build of configuration Debug for project Driver_Library_Test ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../driverlib/adc10_a.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/adc10_a.d" --obj_directory="driverlib"  "../driverlib/adc10_a.c"
+'Finished building: ../driverlib/adc10_a.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 11: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../main.c'
+' '
+'Building file: ../Libraries/delay.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="Libraries/delay.d" --obj_directory="Libraries"  "../Libraries/delay.c"
+'Finished building: ../Libraries/delay.c'
+' '
+'Building file: ../driverlib/adc12_a.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/adc12_a.d" --obj_directory="driverlib"  "../driverlib/adc12_a.c"
+"../driverlib/adc12_a.c", line 60: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/adc12_a.c", line 125: remark #1535-D: (ULP 8.1) variable "memoryBufferControlOffset" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/adc12_a.c", line 211: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../driverlib/adc12_a.c'
+' '
+'Building file: ../driverlib/aes.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/aes.d" --obj_directory="driverlib"  "../driverlib/aes.c"
+'Finished building: ../driverlib/aes.c'
+' '
+'Building file: ../driverlib/battbak.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/battbak.d" --obj_directory="driverlib"  "../driverlib/battbak.c"
+'Finished building: ../driverlib/battbak.c'
+' '
+'Building file: ../driverlib/crc.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/crc.d" --obj_directory="driverlib"  "../driverlib/crc.c"
+'Finished building: ../driverlib/crc.c'
+' '
+'Building file: ../driverlib/ctsd16.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ctsd16.d" --obj_directory="driverlib"  "../driverlib/ctsd16.c"
+'Finished building: ../driverlib/ctsd16.c'
+' '
+'Building file: ../driverlib/comp_b.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/comp_b.d" --obj_directory="driverlib"  "../driverlib/comp_b.c"
+"../driverlib/comp_b.c", line 55: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/comp_b.c'
+' '
+'Building file: ../driverlib/dac12_a.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/dac12_a.d" --obj_directory="driverlib"  "../driverlib/dac12_a.c"
+'Finished building: ../driverlib/dac12_a.c'
+' '
+'Building file: ../driverlib/eusci_a_spi.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_a_spi.d" --obj_directory="driverlib"  "../driverlib/eusci_a_spi.c"
+'Finished building: ../driverlib/eusci_a_spi.c'
+' '
+'Building file: ../driverlib/eusci_a_uart.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_a_uart.d" --obj_directory="driverlib"  "../driverlib/eusci_a_uart.c"
+'Finished building: ../driverlib/eusci_a_uart.c'
+' '
+'Building file: ../driverlib/dma.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/dma.d" --obj_directory="driverlib"  "../driverlib/dma.c"
+"../driverlib/dma.c", line 53: remark #1535-D: (ULP 8.1) variable "triggerOffset" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/dma.c'
+' '
+'Building file: ../driverlib/eusci_b_i2c.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_b_i2c.d" --obj_directory="driverlib"  "../driverlib/eusci_b_i2c.c"
+'Finished building: ../driverlib/eusci_b_i2c.c'
+' '
+'Building file: ../driverlib/eusci_b_spi.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_b_spi.d" --obj_directory="driverlib"  "../driverlib/eusci_b_spi.c"
+'Finished building: ../driverlib/eusci_b_spi.c'
+' '
+'Building file: ../driverlib/lcd_b.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/lcd_b.d" --obj_directory="driverlib"  "../driverlib/lcd_b.c"
+'Finished building: ../driverlib/lcd_b.c'
+' '
+'Building file: ../driverlib/flashctl.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/flashctl.d" --obj_directory="driverlib"  "../driverlib/flashctl.c"
+'Finished building: ../driverlib/flashctl.c'
+' '
+'Building file: ../driverlib/ldopwr.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ldopwr.d" --obj_directory="driverlib"  "../driverlib/ldopwr.c"
+"../driverlib/flashctl.c", line 136: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../driverlib/ldopwr.c'
+' '
+'Building file: ../driverlib/gpio.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/gpio.d" --obj_directory="driverlib"  "../driverlib/gpio.c"
+"../driverlib/gpio.c", line 143: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 166: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 188: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 209: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 230: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 250: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 270: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 290: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 314: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 337: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 352: remark #1535-D: (ULP 8.1) variable "inputPinValue" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 363: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 383: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 403: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 432: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 453: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/gpio.c", line 481: remark #1535-D: (ULP 8.1) variable "baseAddress" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/gpio.c'
+' '
+'Building file: ../driverlib/oa.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/oa.d" --obj_directory="driverlib"  "../driverlib/oa.c"
+'Finished building: ../driverlib/oa.c'
+' '
+'Building file: ../driverlib/mpy32.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/mpy32.d" --obj_directory="driverlib"  "../driverlib/mpy32.c"
+'Finished building: ../driverlib/mpy32.c'
+' '
+'Building file: ../driverlib/pmap.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/pmap.d" --obj_directory="driverlib"  "../driverlib/pmap.c"
+'Finished building: ../driverlib/pmap.c'
+' '
+'Building file: ../driverlib/ram.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ram.d" --obj_directory="driverlib"  "../driverlib/ram.c"
+"../driverlib/pmap.c", line 68: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/pmap.c", line 68: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"../driverlib/pmap.c", line 56: remark #1535-D: (ULP 8.1) variable "globalInterruptState" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/ram.c'
+' '
+'Building file: ../driverlib/ref.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ref.d" --obj_directory="driverlib"  "../driverlib/ref.c"
+'Finished building: ../driverlib/ref.c'
+' '
+'Building file: ../driverlib/pmm.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/pmm.d" --obj_directory="driverlib"  "../driverlib/pmm.c"
+"../driverlib/pmm.c", line 306: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 323: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 348: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 364: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 402: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 456: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 496: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+'Finished building: ../driverlib/pmm.c'
+' '
+'Building file: ../driverlib/rtc_b.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_b.d" --obj_directory="driverlib"  "../driverlib/rtc_b.c"
+'Finished building: ../driverlib/rtc_b.c'
+' '
+'Building file: ../driverlib/rtc_c.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_c.d" --obj_directory="driverlib"  "../driverlib/rtc_c.c"
+'Finished building: ../driverlib/rtc_c.c'
+' '
+'Building file: ../driverlib/rtc_a.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_a.d" --obj_directory="driverlib"  "../driverlib/rtc_a.c"
+"../driverlib/rtc_a.c", line 109: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/rtc_a.c", line 115: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 116: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 117: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 118: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 119: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 120: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 151: remark #1535-D: (ULP 8.1) variable "counterValue_L" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/rtc_a.c", line 152: remark #1535-D: (ULP 8.1) variable "counterValue_H" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/rtc_a.c'
+' '
+'Building file: ../driverlib/sd24_b.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sd24_b.d" --obj_directory="driverlib"  "../driverlib/sd24_b.c"
+'Finished building: ../driverlib/sd24_b.c'
+' '
+'Building file: ../driverlib/sfr.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sfr.d" --obj_directory="driverlib"  "../driverlib/sfr.c"
+'Finished building: ../driverlib/sfr.c'
+' '
+'Building file: ../driverlib/sysctl.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sysctl.d" --obj_directory="driverlib"  "../driverlib/sysctl.c"
+"../driverlib/sysctl.c", line 141: remark #1535-D: (ULP 8.1) variable "JTAGInboxMessageLow" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/sysctl.c", line 142: remark #1535-D: (ULP 8.1) variable "JTAGInboxMessageHigh" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/sysctl.c'
+' '
+'Building file: ../driverlib/tec.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/tec.d" --obj_directory="driverlib"  "../driverlib/tec.c"
+'Finished building: ../driverlib/tec.c'
+' '
+'Building file: ../driverlib/timer_d.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_d.d" --obj_directory="driverlib"  "../driverlib/timer_d.c"
+'Finished building: ../driverlib/timer_d.c'
+' '
+'Building file: ../driverlib/timer_a.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_a.d" --obj_directory="driverlib"  "../driverlib/timer_a.c"
+"../driverlib/timer_a.c", line 331: remark #1535-D: (ULP 8.1) variable "temp" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/timer_a.c'
+' '
+'Building file: ../driverlib/tlv.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/tlv.d" --obj_directory="driverlib"  "../driverlib/tlv.c"
+'Finished building: ../driverlib/tlv.c'
+' '
+'Building file: ../driverlib/timer_b.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_b.d" --obj_directory="driverlib"  "../driverlib/timer_b.c"
+"../driverlib/timer_b.c", line 398: remark #1535-D: (ULP 8.1) variable "temp" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/timer_b.c'
+' '
+'Building file: ../driverlib/usci_a_spi.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_a_spi.d" --obj_directory="driverlib"  "../driverlib/usci_a_spi.c"
+"../driverlib/usci_a_spi.c", line 69: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_a_spi.c", line 99: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../driverlib/usci_a_spi.c'
+' '
+'Building file: ../driverlib/usci_a_uart.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_a_uart.d" --obj_directory="driverlib"  "../driverlib/usci_a_uart.c"
+"../driverlib/usci_a_uart.c", line 55: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/usci_a_uart.c", line 120: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_a_uart.c", line 135: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_a_uart.c", line 249: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+'Finished building: ../driverlib/usci_a_uart.c'
+' '
+'Building file: ../driverlib/ucs.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ucs.d" --obj_directory="driverlib"  "../driverlib/ucs.c"
+"../driverlib/ucs.c", line 195: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 202: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/ucs.c", line 219: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/ucs.c", line 227: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 262: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 266: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 270: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 288: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 822: remark #1535-D: (ULP 8.1) variable "mode" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/ucs.c", line 827: remark #1535-D: (ULP 8.1) variable "srRegisterState" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/ucs.c", line 991: remark #1535-D: (ULP 8.1) variable "MCLKSource" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/ucs.c", line 993: remark #1535-D: (ULP 8.1) variable "MCLKSourceDivider" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/ucs.c'
+' '
+'Building file: ../driverlib/usci_b_i2c.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_b_i2c.d" --obj_directory="driverlib"  "../driverlib/usci_b_i2c.c"
+"../driverlib/usci_b_i2c.c", line 77: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_b_i2c.c", line 213: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 222: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 204: remark #1535-D: (ULP 8.1) variable "txieStatus" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/usci_b_i2c.c", line 254: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 269: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 245: remark #1535-D: (ULP 8.1) variable "txieStatus" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/usci_b_i2c.c", line 305: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 296: remark #1535-D: (ULP 8.1) variable "txieStatus" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/usci_b_i2c.c", line 331: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 322: remark #1535-D: (ULP 8.1) variable "txieStatus" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/usci_b_i2c.c", line 358: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 376: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 401: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 411: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 430: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 446: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 469: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 486: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 535: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 529: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 569: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 557: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 607: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 638: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 663: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+'Finished building: ../driverlib/usci_b_i2c.c'
+' '
+'Building file: ../driverlib/usci_b_spi.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_b_spi.d" --obj_directory="driverlib"  "../driverlib/usci_b_spi.c"
+"../driverlib/usci_b_spi.c", line 69: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_b_spi.c", line 97: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../driverlib/usci_b_spi.c'
+' '
+'Building file: ../driverlib/wdt_a.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/wdt_a.d" --obj_directory="driverlib"  "../driverlib/wdt_a.c"
+"../driverlib/wdt_a.c", line 55: remark #1535-D: (ULP 8.1) variable "newWDTStatus" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/wdt_a.c", line 64: remark #1535-D: (ULP 8.1) variable "newWDTStatus" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/wdt_a.c", line 73: remark #1535-D: (ULP 8.1) variable "newWDTStatus" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../driverlib/wdt_a.c'
+' '
+'Building target: Driver_Library_Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Driver_Library_Test.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Driver_Library_Test_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Driver_Library_Test.out" "./main.obj" "./Libraries/delay.obj" "./driverlib/adc10_a.obj" "./driverlib/adc12_a.obj" "./driverlib/aes.obj" "./driverlib/battbak.obj" "./driverlib/comp_b.obj" "./driverlib/crc.obj" "./driverlib/ctsd16.obj" "./driverlib/dac12_a.obj" "./driverlib/dma.obj" "./driverlib/eusci_a_spi.obj" "./driverlib/eusci_a_uart.obj" "./driverlib/eusci_b_i2c.obj" "./driverlib/eusci_b_spi.obj" "./driverlib/flashctl.obj" "./driverlib/gpio.obj" "./driverlib/lcd_b.obj" "./driverlib/ldopwr.obj" "./driverlib/mpy32.obj" "./driverlib/oa.obj" "./driverlib/pmap.obj" "./driverlib/pmm.obj" "./driverlib/ram.obj" "./driverlib/ref.obj" "./driverlib/rtc_a.obj" "./driverlib/rtc_b.obj" "./driverlib/rtc_c.obj" "./driverlib/sd24_b.obj" "./driverlib/sfr.obj" "./driverlib/sysctl.obj" "./driverlib/tec.obj" "./driverlib/timer_a.obj" "./driverlib/timer_b.obj" "./driverlib/timer_d.obj" "./driverlib/tlv.obj" "./driverlib/ucs.obj" "./driverlib/usci_a_spi.obj" "./driverlib/usci_a_uart.obj" "./driverlib/usci_b_i2c.obj" "./driverlib/usci_b_spi.obj" "./driverlib/wdt_a.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Driver_Library_Test.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Driver_Library_Test.hex"  "Driver_Library_Test.out" 
+Translating to Intel format...
+   "Driver_Library_Test.out" .text:_isr ==> .text:_isr
+   "Driver_Library_Test.out" RTC ==> RTC
+   "Driver_Library_Test.out" PORT2 ==> PORT2
+   "Driver_Library_Test.out" TIMER2_A1 ==> TIMER2_A1
+   "Driver_Library_Test.out" TIMER2_A0 ==> TIMER2_A0
+   "Driver_Library_Test.out" USCI_B1 ==> USCI_B1
+   "Driver_Library_Test.out" USCI_A1 ==> USCI_A1
+   "Driver_Library_Test.out" PORT1 ==> PORT1
+   "Driver_Library_Test.out" TIMER1_A1 ==> TIMER1_A1
+   "Driver_Library_Test.out" TIMER1_A0 ==> TIMER1_A0
+   "Driver_Library_Test.out" DMA ==> DMA
+   "Driver_Library_Test.out" USB_UBM ==> USB_UBM
+   "Driver_Library_Test.out" TIMER0_A1 ==> TIMER0_A1
+   "Driver_Library_Test.out" TIMER0_A0 ==> TIMER0_A0
+   "Driver_Library_Test.out" ADC12 ==> ADC12
+   "Driver_Library_Test.out" USCI_B0 ==> USCI_B0
+   "Driver_Library_Test.out" USCI_A0 ==> USCI_A0
+   "Driver_Library_Test.out" WDT ==> WDT
+   "Driver_Library_Test.out" TIMER0_B1 ==> TIMER0_B1
+   "Driver_Library_Test.out" TIMER0_B0 ==> TIMER0_B0
+   "Driver_Library_Test.out" COMP_B ==> COMP_B
+   "Driver_Library_Test.out" UNMI ==> UNMI
+   "Driver_Library_Test.out" SYSNMI ==> SYSNMI
+   "Driver_Library_Test.out" .reset ==> .reset
+   "Driver_Library_Test.out" .text ==> .text
+'Finished building: Driver_Library_Test.hex'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Driver_Library_Test ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 1: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+Building file: "../Libraries/delay.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="Libraries/delay.d_raw" --obj_directory="Libraries"  "../Libraries/delay.c"
+Finished building: "../Libraries/delay.c"
+ 
+Building file: "../driverlib/adc10_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/adc10_a.d_raw" --obj_directory="driverlib"  "../driverlib/adc10_a.c"
+Finished building: "../driverlib/adc10_a.c"
+ 
+Building file: "../driverlib/adc12_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/adc12_a.d_raw" --obj_directory="driverlib"  "../driverlib/adc12_a.c"
+"../driverlib/adc12_a.c", line 60: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/adc12_a.c", line 211: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../driverlib/adc12_a.c"
+ 
+Building file: "../driverlib/aes.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/aes.d_raw" --obj_directory="driverlib"  "../driverlib/aes.c"
+Finished building: "../driverlib/aes.c"
+ 
+Building file: "../driverlib/battbak.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/battbak.d_raw" --obj_directory="driverlib"  "../driverlib/battbak.c"
+Finished building: "../driverlib/battbak.c"
+ 
+Building file: "../driverlib/crc.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/crc.d_raw" --obj_directory="driverlib"  "../driverlib/crc.c"
+Finished building: "../driverlib/crc.c"
+ 
+Building file: "../driverlib/comp_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/comp_b.d_raw" --obj_directory="driverlib"  "../driverlib/comp_b.c"
+"../driverlib/comp_b.c", line 55: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../driverlib/comp_b.c"
+ 
+Building file: "../driverlib/ctsd16.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ctsd16.d_raw" --obj_directory="driverlib"  "../driverlib/ctsd16.c"
+Finished building: "../driverlib/ctsd16.c"
+ 
+Building file: "../driverlib/dac12_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/dac12_a.d_raw" --obj_directory="driverlib"  "../driverlib/dac12_a.c"
+Finished building: "../driverlib/dac12_a.c"
+ 
+Building file: "../driverlib/eusci_a_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_a_spi.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_a_spi.c"
+Finished building: "../driverlib/eusci_a_spi.c"
+ 
+Building file: "../driverlib/dma.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/dma.d_raw" --obj_directory="driverlib"  "../driverlib/dma.c"
+Finished building: "../driverlib/dma.c"
+ 
+Building file: "../driverlib/eusci_a_uart.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_a_uart.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_a_uart.c"
+Finished building: "../driverlib/eusci_a_uart.c"
+ 
+Building file: "../driverlib/eusci_b_i2c.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_b_i2c.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_b_i2c.c"
+Finished building: "../driverlib/eusci_b_i2c.c"
+ 
+Building file: "../driverlib/eusci_b_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_b_spi.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_b_spi.c"
+Finished building: "../driverlib/eusci_b_spi.c"
+ 
+Building file: "../driverlib/flashctl.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/flashctl.d_raw" --obj_directory="driverlib"  "../driverlib/flashctl.c"
+"../driverlib/flashctl.c", line 136: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+Finished building: "../driverlib/flashctl.c"
+ 
+Building file: "../driverlib/gpio.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/gpio.d_raw" --obj_directory="driverlib"  "../driverlib/gpio.c"
+Finished building: "../driverlib/gpio.c"
+ 
+Building file: "../driverlib/lcd_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/lcd_b.d_raw" --obj_directory="driverlib"  "../driverlib/lcd_b.c"
+Finished building: "../driverlib/lcd_b.c"
+ 
+Building file: "../driverlib/ldopwr.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ldopwr.d_raw" --obj_directory="driverlib"  "../driverlib/ldopwr.c"
+Finished building: "../driverlib/ldopwr.c"
+ 
+Building file: "../driverlib/oa.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/oa.d_raw" --obj_directory="driverlib"  "../driverlib/oa.c"
+Finished building: "../driverlib/oa.c"
+ 
+Building file: "../driverlib/mpy32.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/mpy32.d_raw" --obj_directory="driverlib"  "../driverlib/mpy32.c"
+Finished building: "../driverlib/mpy32.c"
+ 
+Building file: "../driverlib/pmap.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/pmap.d_raw" --obj_directory="driverlib"  "../driverlib/pmap.c"
+"../driverlib/pmap.c", line 68: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/pmap.c", line 68: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+Finished building: "../driverlib/pmap.c"
+ 
+Building file: "../driverlib/ram.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ram.d_raw" --obj_directory="driverlib"  "../driverlib/ram.c"
+Finished building: "../driverlib/ram.c"
+ 
+Building file: "../driverlib/ref.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ref.d_raw" --obj_directory="driverlib"  "../driverlib/ref.c"
+Finished building: "../driverlib/ref.c"
+ 
+Building file: "../driverlib/pmm.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/pmm.d_raw" --obj_directory="driverlib"  "../driverlib/pmm.c"
+"../driverlib/pmm.c", line 306: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 323: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 348: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 364: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 402: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 456: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 496: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../driverlib/pmm.c"
+ 
+Building file: "../driverlib/rtc_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_a.d_raw" --obj_directory="driverlib"  "../driverlib/rtc_a.c"
+"../driverlib/rtc_a.c", line 109: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/rtc_a.c", line 115: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 116: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 117: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 118: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 119: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 120: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+Finished building: "../driverlib/rtc_a.c"
+ 
+Building file: "../driverlib/rtc_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_b.d_raw" --obj_directory="driverlib"  "../driverlib/rtc_b.c"
+Finished building: "../driverlib/rtc_b.c"
+ 
+Building file: "../driverlib/rtc_c.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_c.d_raw" --obj_directory="driverlib"  "../driverlib/rtc_c.c"
+Finished building: "../driverlib/rtc_c.c"
+ 
+Building file: "../driverlib/sd24_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sd24_b.d_raw" --obj_directory="driverlib"  "../driverlib/sd24_b.c"
+Finished building: "../driverlib/sd24_b.c"
+ 
+Building file: "../driverlib/sfr.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sfr.d_raw" --obj_directory="driverlib"  "../driverlib/sfr.c"
+Finished building: "../driverlib/sfr.c"
+ 
+Building file: "../driverlib/sysctl.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sysctl.d_raw" --obj_directory="driverlib"  "../driverlib/sysctl.c"
+Finished building: "../driverlib/sysctl.c"
+ 
+Building file: "../driverlib/tec.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/tec.d_raw" --obj_directory="driverlib"  "../driverlib/tec.c"
+Finished building: "../driverlib/tec.c"
+ 
+Building file: "../driverlib/timer_d.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_d.d_raw" --obj_directory="driverlib"  "../driverlib/timer_d.c"
+Finished building: "../driverlib/timer_d.c"
+ 
+Building file: "../driverlib/timer_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_a.d_raw" --obj_directory="driverlib"  "../driverlib/timer_a.c"
+Finished building: "../driverlib/timer_a.c"
+ 
+Building file: "../driverlib/timer_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_b.d_raw" --obj_directory="driverlib"  "../driverlib/timer_b.c"
+Finished building: "../driverlib/timer_b.c"
+ 
+Building file: "../driverlib/tlv.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/tlv.d_raw" --obj_directory="driverlib"  "../driverlib/tlv.c"
+Finished building: "../driverlib/tlv.c"
+ 
+Building file: "../driverlib/usci_a_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_a_spi.d_raw" --obj_directory="driverlib"  "../driverlib/usci_a_spi.c"
+"../driverlib/usci_a_spi.c", line 69: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_a_spi.c", line 99: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../driverlib/usci_a_spi.c"
+ 
+Building file: "../driverlib/usci_a_uart.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_a_uart.d_raw" --obj_directory="driverlib"  "../driverlib/usci_a_uart.c"
+"../driverlib/usci_a_uart.c", line 55: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/usci_a_uart.c", line 120: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_a_uart.c", line 135: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_a_uart.c", line 249: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../driverlib/usci_a_uart.c"
+ 
+Building file: "../driverlib/ucs.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ucs.d_raw" --obj_directory="driverlib"  "../driverlib/ucs.c"
+"../driverlib/ucs.c", line 195: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 202: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/ucs.c", line 219: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/ucs.c", line 227: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 262: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 266: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 270: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 288: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../driverlib/ucs.c"
+ 
+Building file: "../driverlib/usci_b_i2c.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_b_i2c.d_raw" --obj_directory="driverlib"  "../driverlib/usci_b_i2c.c"
+"../driverlib/usci_b_i2c.c", line 77: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_b_i2c.c", line 213: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 222: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 254: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 269: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 305: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 331: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 358: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 376: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 401: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 411: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 430: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 446: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 469: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 486: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 535: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 529: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 569: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 557: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 607: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 638: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 663: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../driverlib/usci_b_i2c.c"
+ 
+Building file: "../driverlib/usci_b_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_b_spi.d_raw" --obj_directory="driverlib"  "../driverlib/usci_b_spi.c"
+"../driverlib/usci_b_spi.c", line 69: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_b_spi.c", line 97: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../driverlib/usci_b_spi.c"
+ 
+Building file: "../driverlib/wdt_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/wdt_a.d_raw" --obj_directory="driverlib"  "../driverlib/wdt_a.c"
+Finished building: "../driverlib/wdt_a.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Driver_Library_Test ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../driverlib/adc10_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/adc10_a.d_raw" --obj_directory="driverlib"  "../driverlib/adc10_a.c"
+Finished building: "../driverlib/adc10_a.c"
+ 
+Building file: "../Libraries/delay.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="Libraries/delay.d_raw" --obj_directory="Libraries"  "../Libraries/delay.c"
+Finished building: "../Libraries/delay.c"
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 31: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building file: "../driverlib/adc12_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/adc12_a.d_raw" --obj_directory="driverlib"  "../driverlib/adc12_a.c"
+"../driverlib/adc12_a.c", line 60: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/adc12_a.c", line 211: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../driverlib/adc12_a.c"
+ 
+Building file: "../driverlib/battbak.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/battbak.d_raw" --obj_directory="driverlib"  "../driverlib/battbak.c"
+Finished building: "../driverlib/battbak.c"
+ 
+Building file: "../driverlib/crc.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/crc.d_raw" --obj_directory="driverlib"  "../driverlib/crc.c"
+Finished building: "../driverlib/crc.c"
+ 
+Building file: "../driverlib/aes.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/aes.d_raw" --obj_directory="driverlib"  "../driverlib/aes.c"
+Finished building: "../driverlib/aes.c"
+ 
+Building file: "../driverlib/comp_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/comp_b.d_raw" --obj_directory="driverlib"  "../driverlib/comp_b.c"
+"../driverlib/comp_b.c", line 55: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../driverlib/comp_b.c"
+ 
+Building file: "../driverlib/ctsd16.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ctsd16.d_raw" --obj_directory="driverlib"  "../driverlib/ctsd16.c"
+Finished building: "../driverlib/ctsd16.c"
+ 
+Building file: "../driverlib/dac12_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/dac12_a.d_raw" --obj_directory="driverlib"  "../driverlib/dac12_a.c"
+Finished building: "../driverlib/dac12_a.c"
+ 
+Building file: "../driverlib/eusci_a_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_a_spi.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_a_spi.c"
+Finished building: "../driverlib/eusci_a_spi.c"
+ 
+Building file: "../driverlib/dma.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/dma.d_raw" --obj_directory="driverlib"  "../driverlib/dma.c"
+Finished building: "../driverlib/dma.c"
+ 
+Building file: "../driverlib/eusci_a_uart.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_a_uart.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_a_uart.c"
+Finished building: "../driverlib/eusci_a_uart.c"
+ 
+Building file: "../driverlib/eusci_b_i2c.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_b_i2c.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_b_i2c.c"
+Finished building: "../driverlib/eusci_b_i2c.c"
+ 
+Building file: "../driverlib/eusci_b_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/eusci_b_spi.d_raw" --obj_directory="driverlib"  "../driverlib/eusci_b_spi.c"
+Finished building: "../driverlib/eusci_b_spi.c"
+ 
+Building file: "../driverlib/flashctl.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/flashctl.d_raw" --obj_directory="driverlib"  "../driverlib/flashctl.c"
+"../driverlib/flashctl.c", line 136: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+Finished building: "../driverlib/flashctl.c"
+ 
+Building file: "../driverlib/lcd_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/lcd_b.d_raw" --obj_directory="driverlib"  "../driverlib/lcd_b.c"
+Finished building: "../driverlib/lcd_b.c"
+ 
+Building file: "../driverlib/ldopwr.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ldopwr.d_raw" --obj_directory="driverlib"  "../driverlib/ldopwr.c"
+Finished building: "../driverlib/ldopwr.c"
+ 
+Building file: "../driverlib/gpio.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/gpio.d_raw" --obj_directory="driverlib"  "../driverlib/gpio.c"
+Finished building: "../driverlib/gpio.c"
+ 
+Building file: "../driverlib/mpy32.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/mpy32.d_raw" --obj_directory="driverlib"  "../driverlib/mpy32.c"
+Finished building: "../driverlib/mpy32.c"
+ 
+Building file: "../driverlib/oa.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/oa.d_raw" --obj_directory="driverlib"  "../driverlib/oa.c"
+Finished building: "../driverlib/oa.c"
+ 
+Building file: "../driverlib/pmap.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/pmap.d_raw" --obj_directory="driverlib"  "../driverlib/pmap.c"
+"../driverlib/pmap.c", line 68: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/pmap.c", line 68: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+Finished building: "../driverlib/pmap.c"
+ 
+Building file: "../driverlib/ram.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ram.d_raw" --obj_directory="driverlib"  "../driverlib/ram.c"
+Finished building: "../driverlib/ram.c"
+ 
+Building file: "../driverlib/pmm.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/pmm.d_raw" --obj_directory="driverlib"  "../driverlib/pmm.c"
+"../driverlib/pmm.c", line 306: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 323: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 348: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 364: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 402: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 456: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMLDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/pmm.c", line 496: remark #1528-D: (ULP 3.1) Detected flag polling using SVSMHDLYIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../driverlib/pmm.c"
+ 
+Building file: "../driverlib/ref.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ref.d_raw" --obj_directory="driverlib"  "../driverlib/ref.c"
+Finished building: "../driverlib/ref.c"
+ 
+Building file: "../driverlib/rtc_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_b.d_raw" --obj_directory="driverlib"  "../driverlib/rtc_b.c"
+Finished building: "../driverlib/rtc_b.c"
+ 
+Building file: "../driverlib/rtc_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_a.d_raw" --obj_directory="driverlib"  "../driverlib/rtc_a.c"
+"../driverlib/rtc_a.c", line 109: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/rtc_a.c", line 115: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 116: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 117: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 118: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 119: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+"../driverlib/rtc_a.c", line 120: remark #1546-D: (ULP 15.1) Detected consecutive bitfield assigns. Recommend using bit mask instead
+Finished building: "../driverlib/rtc_a.c"
+ 
+Building file: "../driverlib/sd24_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sd24_b.d_raw" --obj_directory="driverlib"  "../driverlib/sd24_b.c"
+Finished building: "../driverlib/sd24_b.c"
+ 
+Building file: "../driverlib/rtc_c.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/rtc_c.d_raw" --obj_directory="driverlib"  "../driverlib/rtc_c.c"
+Finished building: "../driverlib/rtc_c.c"
+ 
+Building file: "../driverlib/sfr.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sfr.d_raw" --obj_directory="driverlib"  "../driverlib/sfr.c"
+Finished building: "../driverlib/sfr.c"
+ 
+Building file: "../driverlib/sysctl.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/sysctl.d_raw" --obj_directory="driverlib"  "../driverlib/sysctl.c"
+Finished building: "../driverlib/sysctl.c"
+ 
+Building file: "../driverlib/tec.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/tec.d_raw" --obj_directory="driverlib"  "../driverlib/tec.c"
+Finished building: "../driverlib/tec.c"
+ 
+Building file: "../driverlib/timer_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_a.d_raw" --obj_directory="driverlib"  "../driverlib/timer_a.c"
+Finished building: "../driverlib/timer_a.c"
+ 
+Building file: "../driverlib/timer_d.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_d.d_raw" --obj_directory="driverlib"  "../driverlib/timer_d.c"
+Finished building: "../driverlib/timer_d.c"
+ 
+Building file: "../driverlib/tlv.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/tlv.d_raw" --obj_directory="driverlib"  "../driverlib/tlv.c"
+Finished building: "../driverlib/tlv.c"
+ 
+Building file: "../driverlib/timer_b.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/timer_b.d_raw" --obj_directory="driverlib"  "../driverlib/timer_b.c"
+Finished building: "../driverlib/timer_b.c"
+ 
+Building file: "../driverlib/usci_a_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_a_spi.d_raw" --obj_directory="driverlib"  "../driverlib/usci_a_spi.c"
+"../driverlib/usci_a_spi.c", line 69: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_a_spi.c", line 99: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../driverlib/usci_a_spi.c"
+ 
+Building file: "../driverlib/usci_a_uart.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_a_uart.d_raw" --obj_directory="driverlib"  "../driverlib/usci_a_uart.c"
+"../driverlib/usci_a_uart.c", line 55: remark #1535-D: (ULP 8.1) variable "retVal" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../driverlib/usci_a_uart.c", line 120: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_a_uart.c", line 135: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_a_uart.c", line 249: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../driverlib/usci_a_uart.c"
+ 
+Building file: "../driverlib/ucs.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/ucs.d_raw" --obj_directory="driverlib"  "../driverlib/ucs.c"
+"../driverlib/ucs.c", line 195: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 202: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/ucs.c", line 219: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../driverlib/ucs.c", line 227: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 262: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 266: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 270: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/ucs.c", line 288: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../driverlib/ucs.c"
+ 
+Building file: "../driverlib/usci_b_i2c.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_b_i2c.d_raw" --obj_directory="driverlib"  "../driverlib/usci_b_i2c.c"
+"../driverlib/usci_b_i2c.c", line 77: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_b_i2c.c", line 213: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 222: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 254: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 269: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 305: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 331: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 358: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 376: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 401: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 411: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 430: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 446: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 469: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 486: remark #1528-D: (ULP 3.1) Detected flag polling using UCTXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 535: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 529: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 569: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../driverlib/usci_b_i2c.c", line 557: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 607: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 638: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../driverlib/usci_b_i2c.c", line 663: remark #1528-D: (ULP 3.1) Detected flag polling using UCRXIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../driverlib/usci_b_i2c.c"
+ 
+Building file: "../driverlib/usci_b_spi.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/usci_b_spi.d_raw" --obj_directory="driverlib"  "../driverlib/usci_b_spi.c"
+"../driverlib/usci_b_spi.c", line 69: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../driverlib/usci_b_spi.c", line 97: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../driverlib/usci_b_spi.c"
+ 
+Building file: "../driverlib/wdt_a.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="driverlib/wdt_a.d_raw" --obj_directory="driverlib"  "../driverlib/wdt_a.c"
+Finished building: "../driverlib/wdt_a.c"
+ 
+Building target: "Driver_Library_Test.out"
+Invoking: MSP430 Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Driver_Library_Test.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccsv8/ccs_base/msp430/include" -i"C:/ti/ccsv8/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Driver_Library_Test_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Driver_Library_Test.out" "./main.obj" "./Libraries/delay.obj" "./driverlib/adc10_a.obj" "./driverlib/adc12_a.obj" "./driverlib/aes.obj" "./driverlib/battbak.obj" "./driverlib/comp_b.obj" "./driverlib/crc.obj" "./driverlib/ctsd16.obj" "./driverlib/dac12_a.obj" "./driverlib/dma.obj" "./driverlib/eusci_a_spi.obj" "./driverlib/eusci_a_uart.obj" "./driverlib/eusci_b_i2c.obj" "./driverlib/eusci_b_spi.obj" "./driverlib/flashctl.obj" "./driverlib/gpio.obj" "./driverlib/lcd_b.obj" "./driverlib/ldopwr.obj" "./driverlib/mpy32.obj" "./driverlib/oa.obj" "./driverlib/pmap.obj" "./driverlib/pmm.obj" "./driverlib/ram.obj" "./driverlib/ref.obj" "./driverlib/rtc_a.obj" "./driverlib/rtc_b.obj" "./driverlib/rtc_c.obj" "./driverlib/sd24_b.obj" "./driverlib/sfr.obj" "./driverlib/sysctl.obj" "./driverlib/tec.obj" "./driverlib/timer_a.obj" "./driverlib/timer_b.obj" "./driverlib/timer_d.obj" "./driverlib/tlv.obj" "./driverlib/ucs.obj" "./driverlib/usci_a_spi.obj" "./driverlib/usci_a_uart.obj" "./driverlib/usci_b_i2c.obj" "./driverlib/usci_b_spi.obj" "./driverlib/wdt_a.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Driver_Library_Test.out"
+ 
+Building files: "Driver_Library_Test.out"
+Invoking: MSP430 Hex Utility
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Driver_Library_Test.hex"  "Driver_Library_Test.out" 
+Translating to Intel format...
+   "Driver_Library_Test.out" .text:_isr ==> .text:_isr
+   "Driver_Library_Test.out" .const ==> .const
+   "Driver_Library_Test.out" .cinit ==> .cinit
+   "Driver_Library_Test.out" RTC ==> RTC
+   "Driver_Library_Test.out" PORT2 ==> PORT2
+   "Driver_Library_Test.out" TIMER2_A1 ==> TIMER2_A1
+   "Driver_Library_Test.out" TIMER2_A0 ==> TIMER2_A0
+   "Driver_Library_Test.out" USCI_B1 ==> USCI_B1
+   "Driver_Library_Test.out" USCI_A1 ==> USCI_A1
+   "Driver_Library_Test.out" PORT1 ==> PORT1
+   "Driver_Library_Test.out" TIMER1_A1 ==> TIMER1_A1
+   "Driver_Library_Test.out" TIMER1_A0 ==> TIMER1_A0
+   "Driver_Library_Test.out" DMA ==> DMA
+   "Driver_Library_Test.out" USB_UBM ==> USB_UBM
+   "Driver_Library_Test.out" TIMER0_A1 ==> TIMER0_A1
+   "Driver_Library_Test.out" TIMER0_A0 ==> TIMER0_A0
+   "Driver_Library_Test.out" ADC12 ==> ADC12
+   "Driver_Library_Test.out" USCI_B0 ==> USCI_B0
+   "Driver_Library_Test.out" USCI_A0 ==> USCI_A0
+   "Driver_Library_Test.out" WDT ==> WDT
+   "Driver_Library_Test.out" TIMER0_B1 ==> TIMER0_B1
+   "Driver_Library_Test.out" TIMER0_B0 ==> TIMER0_B0
+   "Driver_Library_Test.out" COMP_B ==> COMP_B
+   "Driver_Library_Test.out" UNMI ==> UNMI
+   "Driver_Library_Test.out" SYSNMI ==> SYSNMI
+   "Driver_Library_Test.out" .reset ==> .reset
+   "Driver_Library_Test.out" .text ==> .text
+Finished building: "Driver_Library_Test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Driver_Library_Test ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Driver_Library_Test.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Driver_Library_Test ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/driverlib/inc" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test/Libraries" --include_path="C:/ti/ccsv8/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/Driver_Library_Test" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 30: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Driver_Library_Test.out"
+Invoking: MSP430 Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power="all" --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Driver_Library_Test.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccsv8/ccs_base/msp430/include" -i"C:/ti/ccsv8/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Driver_Library_Test_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Driver_Library_Test.out" "./main.obj" "./Libraries/delay.obj" "./driverlib/adc10_a.obj" "./driverlib/adc12_a.obj" "./driverlib/aes.obj" "./driverlib/battbak.obj" "./driverlib/comp_b.obj" "./driverlib/crc.obj" "./driverlib/ctsd16.obj" "./driverlib/dac12_a.obj" "./driverlib/dma.obj" "./driverlib/eusci_a_spi.obj" "./driverlib/eusci_a_uart.obj" "./driverlib/eusci_b_i2c.obj" "./driverlib/eusci_b_spi.obj" "./driverlib/flashctl.obj" "./driverlib/gpio.obj" "./driverlib/lcd_b.obj" "./driverlib/ldopwr.obj" "./driverlib/mpy32.obj" "./driverlib/oa.obj" "./driverlib/pmap.obj" "./driverlib/pmm.obj" "./driverlib/ram.obj" "./driverlib/ref.obj" "./driverlib/rtc_a.obj" "./driverlib/rtc_b.obj" "./driverlib/rtc_c.obj" "./driverlib/sd24_b.obj" "./driverlib/sfr.obj" "./driverlib/sysctl.obj" "./driverlib/tec.obj" "./driverlib/timer_a.obj" "./driverlib/timer_b.obj" "./driverlib/timer_d.obj" "./driverlib/tlv.obj" "./driverlib/ucs.obj" "./driverlib/usci_a_spi.obj" "./driverlib/usci_a_uart.obj" "./driverlib/usci_b_i2c.obj" "./driverlib/usci_b_spi.obj" "./driverlib/wdt_a.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Driver_Library_Test.out"
+ 
+Building files: "Driver_Library_Test.out"
+Invoking: MSP430 Hex Utility
+"C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "Driver_Library_Test.hex"  "Driver_Library_Test.out" 
+Translating to Intel format...
+   "Driver_Library_Test.out" .text:_isr ==> .text:_isr
+   "Driver_Library_Test.out" .const ==> .const
+   "Driver_Library_Test.out" .cinit ==> .cinit
+   "Driver_Library_Test.out" RTC ==> RTC
+   "Driver_Library_Test.out" PORT2 ==> PORT2
+   "Driver_Library_Test.out" TIMER2_A1 ==> TIMER2_A1
+   "Driver_Library_Test.out" TIMER2_A0 ==> TIMER2_A0
+   "Driver_Library_Test.out" USCI_B1 ==> USCI_B1
+   "Driver_Library_Test.out" USCI_A1 ==> USCI_A1
+   "Driver_Library_Test.out" PORT1 ==> PORT1
+   "Driver_Library_Test.out" TIMER1_A1 ==> TIMER1_A1
+   "Driver_Library_Test.out" TIMER1_A0 ==> TIMER1_A0
+   "Driver_Library_Test.out" DMA ==> DMA
+   "Driver_Library_Test.out" USB_UBM ==> USB_UBM
+   "Driver_Library_Test.out" TIMER0_A1 ==> TIMER0_A1
+   "Driver_Library_Test.out" TIMER0_A0 ==> TIMER0_A0
+   "Driver_Library_Test.out" ADC12 ==> ADC12
+   "Driver_Library_Test.out" USCI_B0 ==> USCI_B0
+   "Driver_Library_Test.out" USCI_A0 ==> USCI_A0
+   "Driver_Library_Test.out" WDT ==> WDT
+   "Driver_Library_Test.out" TIMER0_B1 ==> TIMER0_B1
+   "Driver_Library_Test.out" TIMER0_B0 ==> TIMER0_B0
+   "Driver_Library_Test.out" COMP_B ==> COMP_B
+   "Driver_Library_Test.out" UNMI ==> UNMI
+   "Driver_Library_Test.out" SYSNMI ==> SYSNMI
+   "Driver_Library_Test.out" .reset ==> .reset
+   "Driver_Library_Test.out" .text ==> .text
+Finished building: "Driver_Library_Test.out"
+ 
+
+**** Build Finished ****

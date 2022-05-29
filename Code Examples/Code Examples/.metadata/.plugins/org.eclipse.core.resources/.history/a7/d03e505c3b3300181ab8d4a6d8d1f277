@@ -1,0 +1,13 @@
+#include "driverlib.h"
+#include "delay.h"
+
+
+void main(void)
+{
+    WDT_A_hold(WDT_A_BASE);
+
+    while(1)
+    {
+
+    };
+}

@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Timer_Interrupt ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'Timer_Interrupt.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SW_SPI(Bit Banging)&apos; to &apos;SW_SPI&apos;" description="Rename resource &apos;SW_SPI(Bit Banging)&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SW_SPI(Bit Banging)" name="SW_SPI" stamp="1501938521613" updateReferences="true"/>
+</session>

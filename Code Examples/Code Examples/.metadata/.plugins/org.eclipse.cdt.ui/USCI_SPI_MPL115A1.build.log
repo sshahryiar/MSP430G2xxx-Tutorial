@@ -1,0 +1,48 @@
+
+**** Build of configuration Debug for project USCI_SPI_MPL115A1 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../Libraries/HW_SPI.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/sshah/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_SPI_MPL115A1/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_SPI_MPL115A1/Libraries" --include_path="C:/Users/SShahryiar/Desktop/MSP430 CCS Code Examples/Code Examples/USCI_SPI_MPL115A1" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Libraries/HW_SPI.d" --obj_directory="Libraries"  "../Libraries/HW_SPI.c"
+"../Libraries/HW_SPI.c", line 16: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_SPI.c", line 18: remark #1528-D: (ULP 3.1) Detected flag polling using UCBUSY. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_SPI.c", line 26: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_SPI.c", line 28: remark #1528-D: (ULP 3.1) Detected flag polling using UCBUSY. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_SPI.c", line 38: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_SPI.c", line 40: remark #1528-D: (ULP 3.1) Detected flag polling using UCBUSY. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_SPI.c", line 42: remark #1528-D: (ULP 3.1) Detected flag polling using IFG2. Recommend using an interrupt combined with enter LPMx and ISR
+"../Libraries/HW_SPI.c", line 44: remark #1528-D: (ULP 3.1) Detected flag polling using UCBUSY. Recommend using an interrupt combined with enter LPMx and ISR
+'Finished building: ../Libraries/HW_SPI.c'
+' '
+'Building target: USCI_SPI_MPL115A1.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"USCI_SPI_MPL115A1.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="USCI_SPI_MPL115A1_linkInfo.xml" --use_hw_mpy=none --rom_model -o "USCI_SPI_MPL115A1.out" "./main.obj" "./Libraries/HW_SPI.obj" "./Libraries/MPL115A1.obj" "./Libraries/PCF8574.obj" "./Libraries/SW_I2C.obj" "./Libraries/delay.obj" "./Libraries/lcd.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: USCI_SPI_MPL115A1.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/hex430" --memwidth=8 --romwidth=8 --intel -o "USCI_SPI_MPL115A1.hex"  "USCI_SPI_MPL115A1.out" 
+Translating to Intel format...
+   "USCI_SPI_MPL115A1.out" .text ==> .text
+   "USCI_SPI_MPL115A1.out" .const ==> .const
+   "USCI_SPI_MPL115A1.out" .cinit ==> .cinit
+   "USCI_SPI_MPL115A1.out" $fill000 ==> $fill000
+   "USCI_SPI_MPL115A1.out" TRAPINT ==> TRAPINT
+   "USCI_SPI_MPL115A1.out" PORT1 ==> PORT1
+   "USCI_SPI_MPL115A1.out" PORT2 ==> PORT2
+   "USCI_SPI_MPL115A1.out" ADC10 ==> ADC10
+   "USCI_SPI_MPL115A1.out" USCIAB0TX ==> USCIAB0TX
+   "USCI_SPI_MPL115A1.out" USCIAB0RX ==> USCIAB0RX
+   "USCI_SPI_MPL115A1.out" TIMER0_A1 ==> TIMER0_A1
+   "USCI_SPI_MPL115A1.out" TIMER0_A0 ==> TIMER0_A0
+   "USCI_SPI_MPL115A1.out" WDT ==> WDT
+   "USCI_SPI_MPL115A1.out" COMPARATORA ==> COMPARATORA
+   "USCI_SPI_MPL115A1.out" TIMER1_A1 ==> TIMER1_A1
+   "USCI_SPI_MPL115A1.out" TIMER1_A0 ==> TIMER1_A0
+   "USCI_SPI_MPL115A1.out" NMI ==> NMI
+   "USCI_SPI_MPL115A1.out" .reset ==> .reset
+'Finished building: USCI_SPI_MPL115A1.hex'
+' '
+
+**** Build Finished ****
